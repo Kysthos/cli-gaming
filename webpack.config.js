@@ -4,7 +4,7 @@ module.exports = {
   mode: "production",
   target: "node",
   entry: "./src/index.ts",
-  devtool: "eval-source-map",
+  // devtool: "eval-source-map",
   module: {
     rules: [
       {
